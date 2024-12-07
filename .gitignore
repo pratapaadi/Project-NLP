@@ -1,0 +1,50 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.sqlite
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Model and Artifact Files
+artifacts/
+*.pkl
+
+# Data Files (Make sure to not upload datasets if they are large)
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.dat
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+
+# Dependency management
+pip-wheel-metadata/
+pipenv.lock
+Pipfile.lock
+__pycache__/
